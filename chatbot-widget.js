@@ -29,7 +29,8 @@ document.querySelector('#chat-form').addEventListener('submit', async function(e
   })
   let data = await response.json();  
   var answer = data.answer;
-
+// Log the first bot's response to the console
+  console.log("First bot response:", answer);
   clearInterval(loadingId);
   chatbox.removeChild(loadingMessage);
 
