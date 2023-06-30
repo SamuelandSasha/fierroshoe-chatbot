@@ -1,0 +1,38 @@
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chatbot Example</title>
+    <link rel="stylesheet" href="chatbot-widget.css">
+  </head>
+  <body>
+    <button id="chatbot-toggle">Close Chatbot</button>
+    <div id="chat-widget">
+      <button id="chatbot-close">X</button>
+      <div class="chatbot-header">AI Assistant  <span class="chatbot-helper">Powered by Sicking.co</span><p id="intro">Hi, I am your personal AI estate assistant, ask me any question about Fierro Shoes.</p></div>
+      <div id="chatbox"></div>
+     
+      <form id="chat-form">
+        <div id="chat-messages"></div> <!-- Added chat-messages element -->
+        <input type="text" id="chat-input" />
+        <button type="submit" id="submit">Send</button>
+      </form>
+      <p id="question">
+        Did you find this information helpful?
+      </p>
+      <p id="buttontext">
+        <button id="btn"> Yes </button>
+        <button id="btn2">
+          No
+        </button>
+      </p>
+      <p id="clicker">Button has been clicked <span id="count">0</span> times.</p>
+ <p id="clicker2">Button has been clicked <span id="count2">0</span> times.</p>
+    </div>
+
+
+    <script src="chatbot-widget.js"></script>
+
+
+  </body>
+</html>
